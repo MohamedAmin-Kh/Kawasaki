@@ -1,0 +1,255 @@
+/* roboto-100 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 100;
+    src: url("../resources/fonts/roboto-v47-latin-100.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* roboto-200 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 200;
+    src: url("../resources/fonts/roboto-v47-latin-200.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* roboto-300 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    src: url("../resources/fonts/roboto-v47-latin-300.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* roboto-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../resources/fonts/roboto-v47-latin-regular.woff2")
+        format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* roboto-500 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    src: url("../resources/fonts/roboto-v47-latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* roboto-600 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 600;
+    src: url("../resources/fonts/roboto-v47-latin-600.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* roboto-700 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    src: url("../resources/fonts/roboto-v47-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* roboto-800 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 800;
+    src: url("../resources/fonts/roboto-v47-latin-800.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* roboto-900 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 900;
+    src: url("../resources/fonts/roboto-v47-latin-900.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* ================================================================================================ */
+:root {
+    --KawaGreen: #00883e;
+    --KawaGray: #454548;
+    --KawaBack: #f1f1f1;
+    --kawaDarkGray: #202020;
+}
+
+#logo {
+    width: 40px;
+    display: inline;
+}
+
+header {
+    background-color: var(--kawaDarkGray);
+    width: 100%;
+    height: 60px;
+    padding: 0px calc((100% - (200px * 6 + 16px * 5)) / 2);
+    display: grid;
+    grid-template-columns: repeat(6, 200px);
+    column-gap: 16px;
+    color: var(--KawaBack);
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.nav-element {
+    height: 60px;
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: var(--KawaGreen) 5px solid;
+}
+
+#mainb {
+    gap: 15px;
+}
+
+#loginb {
+    width: 200px;
+    height: 40px;
+    background-color: var(--KawaGreen);
+    border-radius: 15px;
+    color: #1e1e1e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 700;
+    grid-column: 6 /7;
+}
+
+#mainBg {
+    width: 100%;
+    height: 778px;
+    background-image: url(../resources/Images/KawaLogo.jpg);
+    background-position-x: center;
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px calc((100% - (200px * 6 + 16px * 5)) / 2);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 144px 444px 80px;
+    column-gap: 16px;
+    row-gap: 16px;
+}
+
+.greened {
+    color: var(--KawaGreen);
+}
+.getbolded {
+    font-weight: 800;
+}
+
+#kawa {
+    font-family: "Roboto";
+    font-weight: 900;
+    font-size: 96px;
+    color: #ffffff;
+    height: fit-content;
+}
+
+#quote {
+    font-family: "Roboto";
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 64px;
+    grid-column: 3/4;
+    grid-row: 2/3;
+    height: fit-content;
+    text-align: center;
+}
+
+#buy {
+    width: 416px;
+    height: 80px;
+    background-color: rgba(0, 136, 61, 0.5);
+    border-radius: 20px;
+    color: #b1bcc2;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 46px;
+    text-align: center;
+    grid-row: 3/4;
+    grid-column: 2/3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    width: 416px;
+    height: 80px;
+    border-radius: 20px;
+    border: 2px solid var(--KawaGreen);
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 16px auto;
+}
+
+.bike {
+    width: 416px;
+    height: 372px;
+    border-radius: 20px;
+    border: 2px solid #000000;
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 40px;
+    color: #000000;
+    padding: 20px;
+    text-shadow: var(--KawaGreen) 1px 0 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+#bikesgrid {
+    padding: 0px calc((100% - (200px * 6 + 16px * 5)) / 2);
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 416px);
+    grid-template-rows: repeat(2, 372px);
+    gap: 16px;
+    margin-bottom: 16px;
+}
+#h2r {
+    background-image: url("../resources/Images/h2r.png");
+}
+#h2 {
+    background-image: url("../resources/Images/h2.png");
+}
+#zx10rr {
+    background-image: url("../resources/Images/zx10-rr.png");
+}
+#zx6r {
+    background-image: url("../resources/Images/zx6-r.png");
+}
+#zx4rr {
+    background-image: url("../resources/Images/zx4-rr.png");
+}
+#ninja400 {
+    background-image: url("../resources/Images/ninja\ 400.png");
+}
