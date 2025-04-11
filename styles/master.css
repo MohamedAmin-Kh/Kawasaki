@@ -124,8 +124,8 @@ header {
 #loginb {
     width: 200px;
     height: 40px;
-    background-color: var(--KawaGreen);
-    border-radius: 15px;
+    background: linear-gradient(to right, var(--KawaGreen), var(--KawaGray));
+    border-radius: 10px;
     color: #1e1e1e;
     display: flex;
     align-items: center;

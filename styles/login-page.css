@@ -143,12 +143,20 @@ h2 {
 #button {
     width: 423px;
     height: 60px;
-    background: linear-gradient(to right, var(--KawaGreen), var(--KawaGray));
+    background: linear-gradient(
+        to right,
+        var(--KawaGreen) 0 30%,
+        var(--KawaGray)
+    );
     font-family: "Roboto";
     font-size: 32px;
     color: var(--KawaBack);
     text-align: center;
     font-weight: 700;
+}
+
+#button:hover {
+    filter: brightness(0.9);
 }
 
 #forgot {
